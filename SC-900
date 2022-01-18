@@ -1,0 +1,192 @@
+### SC-900 Study Resources 
+
+I got a 946/1000 for this exam. Spent 15 minutes to answer for the exam and got a near perfect score in the end!
+I checked in early and finished answering on time when I should have begun my exam.
+You may find this knowledge base useful if you want to answer the exam swiftly
+
+
+## Knowledge Base
+
+	1. No Azure AD licenses include the same features as another
+	2. You can manage AAD tenant using Azure Portal
+	3. Deploy AZVM to an AD tenant? - No, deploy in Resource Group
+	4. Best Practice of Microsoft Cloud from Microsoft FTE, partners and customers - Microsoft Cloud Adoption Framework
+	5. Identify, hold and export electronic information that might be used in an investigation - eDiscovery
+	6. Manage Microsoft Intune through - Microsoft Endpoint Manager Admin Center
+	7. Federation is used to gain trust relationship between organizations
+		a. Federation = collectibles domain that has already established trust
+	8. The more security policy or setting applied in your tenant, the more higher your secure score will be.
+		a. i.e: Enabling MFA
+		b. Applying system Updates
+	9. Secure score in ASC can be used to evaluate resources across multiple Azure Subscription
+	10. Compliance Score - actions progress measured to reduce risk associated to data protection and regulatory standards.
+	11. A connector is used when integrating Azure Sentinel with another security source
+	12. How to check if Microsoft Cloud comply with Standards like ISO - Microsoft Service Trust Portal
+	13. Share responsibility in Cloud - Microsoft is responsible to maintain hardware - the data, software is all under customer's responsibility
+	14. Zero Trust Principle
+		a. Verify Explicitly
+		b. Assume Breach to the internal Networks
+		c. Does not assume Internal FW can protect external Threat
+	15. Key Privacy Microsoft:
+		a. Control
+		b. Transparency
+	16. Encrypting: File is readable and usable to viewers if they have appropriate Key
+	17. Digitally sign a documents - requires private key
+		a. Verifying authenticity documents of the Signer require public key
+		b. Not Private Key
+	18. When users first sign into Azure Portal they are first authenticated
+	19. Authorization is process to identify resource access on specific resources
+	20. Azure AD B2B - for collaboration between business partners to external organization
+	21. Microsoft Cloud Adoption Framework - 2 phases before the Ready phase: Plan & Define Strategy
+	22. Cloud Shared Responsibility:
+		a. SaaS - Customer: Data and Information Security 
+		b. PaaS - Customer: Developing . Configuring / Hosting App, Data and Information Security
+		c. IaaS: VM Configuration, Developing . Configuring / Hosting App, Data and Information Security
+	23. Azure AD can be used to implement hybrid Identity
+		a. Requirement for AD DS (Domain Services):
+			i. Azure AD tenant and On Prem AD tenant - not M365 tenants
+			ii. AD DS --> Azure AD
+	24. Security Guidelines for Azure --> provides benchmarks and guidance for protecting Azure Services
+	25. Example of Encryption at Rest --> Encrypting VM disk
+	26. Provide a specific time window to complete admin task in Azure --> Azure PIM using Just in time (JIT) Access
+	27. In hybrid model, AD Connect is used to sync AD DS to AAD
+	28. Global admin is a Role in Azure AD
+	29. You can create custom roles in AAD
+	30. An Azure AD Roles can be assigned to multiple users
+		31. AAD is part of Microsoft 365 Subscription
+	32. AAD is a cloud solution, hence they can never be deployed in an on premise environment
+	33. AAD is an IAM - Identity and Access management service
+	34. Windows Hello for business authentication credentials is stored on the  local device only
+	35. Azure AD Password Protection - prevent users to use specific words in their passwords
+	36. Access Review can evaluate group memberships and automatically remove users that no longer require memberships in a group
+	37. MFA requires additional verification, such as verification code sent to mobile phone. The authentication method includes
+		a. What you have
+		b. What you are
+		c. What you ______? - fill in the blanks :)
+	38. Conditional Access Policy
+		a. Use the state device as a signal
+		b. Can trigger MFA is users signing in from other locations
+		c. First factor authentication, then conditional access is applied
+	39. Microsoft Defender for Identity is cloud based solutions that leverage on prem AD signals to identify, detect and investigate advanced threats.
+	40. Microsoft Defender for Identity can identify threats from AD DS signals
+	41. AAD is an identity provider used for authentication and authorization
+	42. AAD feature that can provide JIT Access to manage Azure Resources - Azure AD PIM
+	43. MFA authentication method
+		a. Microsoft Authenticator App
+		b. SMS
+		c. Phone Calls
+		d. Software and Hardware tokens
+		44. Information Barriers is a Microsoft 365 feature used to restrict communication and the sharing of information between members of two departments at your organization.
+	45. Conditional Access Policies can be used to block access to an Application based on location of the users
+	46. Conditional access policies don’t always enforce MFA
+	47. Conditional Access Policies doesn’t only affect users who have AAD joined device
+	48. Conditional Access can be applied to Global Administrators
+	49. Conditional Access will be applied after the users are authenticated
+	50. Conditional Access policies can use device with iOS, Android Platform as a signal
+	51. Application registered in AAD are associated automatically to a service principal. After an Applications are registered on Azure Portal - Objects and Service Principals are automatically created in home directory / tenants
+	52. Windows Hello for Business authentication method
+		a. PIN
+		b. Biometric
+			i. Fingerprints
+			ii. Facial Recognition
+	53. When enabling security defaults on AAD, MFA will be enforced.
+		a. Enforce admins do MFA
+		b. All users to register and use MFA
+		c. Blocks legacy protocols
+	54. Microsoft Cloud App Security can use conditional access policies to control sessions in real time
+	55. Azure DDoS Protection standards can be used to protect resources in Virtual Networks
+	56. You can use Reports in M365 Security Center to view security trends and track the protection status of identities.
+		57. Incidents can be used in M365 Security Centers to Identify devices that are affected by an alert
+	58. Microsoft Defender for Endpoint can:
+		a. Reduce Attack Surface
+		b. Do an Automated Investigations and Remediation
+	59. Network Security Group provides traffic filtering that can be applied to specific network interfaces on a virtual network
+	60. Azure Firewall provides NAT and DNAT services
+	61. Azure Bastion provides secure and seamless Remote Desktop connectivity to Azure Virtual Machines over TLS
+	62. SIEM Solutions by Microsoft = Azure Sentinel - can provide SOAR
+	63. Azure Defender can detect vulnerability and threats in Azure Storage
+	64. Cloud Security Posture is available for All Azure Subscription
+	65. Azure Security Center can evaluate the Security of Workloads from Azure or an On Premises
+	66. Incidents can be used in M365 SC to view an aggregation of alerts that relates to the same attack
+	67. NSG can:
+		a. Deny and Permit Inbound / Outbound Traffic from or to the Internet
+		b. NSG filters traffic based on IP Address, protocol and ports
+	68. Microsoft Intune can be used to:
+		a. managed Android Device
+		b. Managed organization-owned devices and personal device
+	69. Azure Bastion:
+		a. Can only create one Azure Bastion per virtual Network
+		b. Provides secure user connections by using RDP
+		c. Can access to AZ VM using Azure Portal
+	70. First line of Defense against cyberthreats by reducing surface attack threat: Network Protection
+	71. Azure Sentinels can automate common task by using Playbooks
+	72. Azure Firewall can Protect:
+		a. Virtual Machines
+		b. Virtual Networks
+	73. Defense in depth - place multiple layers of defense throughout network Infrastructure
+	74. Microsoft Defender for Endpoint can protect:
+		a. Android devices
+		b. iOS device
+		c. Windows Device
+		Cannot Protect M365 services
+	75. M Defender for O365 can scan email attachments to see if the attachments has malware.
+	76. XDR capability of Azure Sentinel is integration with Microsoft 365 Defender
+	77. Azure Defender defends Resources like SQL and Storage from threats
+	78. Conditional Access Policies - Restrict Microsoft Intune managed devices from accessing corporate resources
+	79. DLP policies in M365:
+		a. Display Policy Tips to users who are about to violate organizations policies
+		b. Protect documents in Microsoft OneDrive that contains sensitive Information
+	80. Compliance Manager assesses compliance data continually for an organization
+	81. Sensitivity labels
+		a. Cannot be used to watermark emails
+		b. Can be used to encrypt documents
+		c. Can add headers and footers to documents
+	82. M365 compliance feature (Sensitivity Labels) lets you to encrypt content automatically based on specific conditions.
+		83. Azure Blueprints provision resources across multiple subscription in consistent manners
+	84. Information Barriers:
+		a. Supported in Microsoft Teams, SharePoint and OneDrive
+	85. Azure Policy:
+		a. Support Automatic Remediation
+		b. Ensure new resources adhere to corporate standards
+		c. Compliance Evaluations continuously occurs even after target resources is created or modified
+	86. Compliance Manager:
+		a. Provides predefined templates for creating assessments
+		b. Help assess whether data adheres to specific data protection standards
+	87. Microsoft 365 Compliance Center provides a central locations for managing information protection, governance and data loss prevention
+	88. Content Search can be used to identify specific documents in SharePoint that contains specific keywords
+	89. AAD IP can:
+		a. Cannot add users according to risk level
+		b. Detect if the credentials were leaked to the public
+		c. Used to trigger MFA based on user risk level
+	90. Advanced audit in Microsoft 365:
+		a. Can identify when emails items were accessed
+		b. Allocates customer-dedicated bandwidth for accessing audit data
+		c. Doesn’t support the same retention period of audit logs as core auditing
+	91. DLP can protect users from sending email that contains sensitive information to external users
+	92. Customer's lockbox can be used to provide Support Engineers with access to an organization data stored in Exchange Online, SharePoint and OneDrive
+	93. Before searching content in eDiscovery, create an eDiscovery Hold
+	94. Microsoft Service Trust Portal provides information about how Microsoft manages privacy, compliance and security
+	95. Microsoft 365 compliance center can protect sensitive data from being exposed to unauthorized users
+	96. Microsoft 365 sensitivity labels can specify which watermarks to add to files
+	97. Resource Lock:
+		a. Can be implemented in Azure Subscription
+		b. Can be added to one or more Azure resources
+		c. Cannot delete resource group containing resources that have resource lock
+	98. Advanced audit in M365
+		a. Cannot be used to view email content or Billing Address
+		b. Know when users uses the search bar in Outlook on the web to search for items in a mailbox
+	99. Sensitivity labels
+		a. User can apply manually
+		b. Multiple SL cannot be applied to the same file
+		c. Can apply watermark to a Microsoft Word Document
+
+## Happy Studying guys!
+	
+
+
+	
+		
+	
+	
+
+
